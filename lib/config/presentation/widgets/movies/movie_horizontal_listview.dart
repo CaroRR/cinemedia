@@ -37,7 +37,7 @@ final scrollController = ScrollController();
 
       if((scrollController.position.pixels + 200) >= scrollController.position.maxScrollExtent){
       
-            widget.loadNextPage??();
+            widget.loadNextPage!();
      
 
     }
